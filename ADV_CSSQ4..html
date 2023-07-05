@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image transition</title>
+    <style>
+        body{
+            overflow: hidden;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            width: 500px;
+            height: 300px;
+            margin-top: 100px;
+            margin-left: 200px;
+            transition: 1s ease-in-out;
+            border: 5px solid #000000;
+        }
+        img:hover{
+            scale: 1.5;
+            transform: 1.5s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./Pins/picture6.jpg" alt="Image">
+    </div>
+</body>
+</html>

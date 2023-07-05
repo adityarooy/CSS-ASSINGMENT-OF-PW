@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+            border: 2px solid #000;
+            padding: 10px;
+            align-items: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .text-section {
+            padding: 0px 50px;
+        }
+        .img-section {
+            background-color: #ffff00;
+            max-height: 90vh;
+            height: 100%;
+        }
+        .text-section h1 {
+            font-size: 40px;
+        }
+        .text-section p {
+            color: #035d3f;
+        }
+        button{
+            padding: 10px 20px;
+            margin-top: 30px;
+            border: 0;
+            background-color: #000;
+            color: #fff;
+            font-size: 20px;
+        }
+        .img-section > img{
+            width: 70%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet id quasi assumenda voluptates eos itaque in, quod ut earum natus recusandae deserunt impedit, facere delectus repudiandae vel nam consequuntur placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nulla blanditiis temporibus ipsum adipisci? Eius sunt voluptates a omnis sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, atque!
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="img-section">
+            <img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="Image">
+        </section>
+    </div>
+</body>
+</html>

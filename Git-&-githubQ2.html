@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup page</title>
+    <style>
+        body{
+            background-color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width: 300px;
+            height: 460px;
+            border: 1px solid black;
+            background-color: #fff;
+            color: #000000;
+            padding: 10px;
+            margin-top: 40px;
+            margin-left: 300px;
+            border-radius: 5px;
+        }
+        .container > h1{
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .container > label {
+            font-weight: 500;
+        }
+        .input-1{
+            width: 100%;
+            height: 20px;
+            margin-top: 10px;
+        }
+        .sele {
+            width: 99%;
+            height: 30px;
+        }
+        button{
+            margin-top: 20px;
+            width: 99%;
+            padding: 5px 0px 5px 0px;
+            background-color: #000000;
+            color: #fff;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Singup</h1>
+        <label for="Name">Name:</label>
+        <br />
+        <input class="input-1" type="text" id="Name">
+        <br />
+        <br />
+        <label for="Batch">Batch:</label>
+        <br />
+        <select class="sele" name="" id="Batch">
+            <option value="1">Sigma 2.0</option>
+            <option value="2">Sigma 1.0</option>
+        </select>
+        <br />
+        <br />
+        <label for="age">Age:</label>
+        <br />
+        <input class="input-1" type="number" name="" id="age">
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input class="input-1" type="email" name="" id="email">
+        <br />
+        <br />
+        <label for="password">Password:</label>
+        <br />
+        <input class="input-1" type="password" name="" id="password">
+        <br />
+        <button>Singup</button>
+    </div>
+</body>
+</html>

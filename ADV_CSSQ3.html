@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky note</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 340px;
+            height: 370px;
+            border: 2px solid;
+            margin-top: 100px;
+            /* margin-left: 300px; */
+            background-image: linear-gradient(to right, #1cbbff, #3367e0);
+            border-radius: 7px;
+        }
+        .card-heading{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-heading > h1{
+            margin-left: 25px;
+        }
+        .card-heading > p{
+            margin-right: 25px;
+            color: #ffffff;
+        }
+        .content{
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        button{
+            margin-top: 10px;
+            padding: 10px 30%;
+            border: 0;
+            border-radius: 6px;
+            font-weight: bold;
+            background-image: linear-gradient(to right, lightgreen, #00d300);
+        }
+        .card:hover{
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-heading">
+            <h1>#01</h1>
+            <p>Created On:01/01/2023</p>
+        </div>
+        <section class="content">
+            <h1>Important dates</h1>
+        <ul>
+            <li>January 26 - Republic Day</li>
+            <li>August 15 - Independence Day</li>
+            <li>October 2 - Gandhi Jayanti</li>
+            <li>August 29 - National Sports Day</li>
+        </ul>
+        <button>Mark As Done</button>
+        </section>
+    </div>
+</body>
+</html>

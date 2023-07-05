@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #222121;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        img{
+            width: 200px;
+            position: relative;
+            border-radius: 50%;
+            margin-left: -50px;
+            border: 10px solid #ffffff;
+        }
+        .cartoon1{
+            z-index: 4;
+        }
+        .cartoon2{
+            z-index: 3;
+        }
+        .cartoon3{
+            z-index: 2;
+        }
+        .cartoon4{
+            z-index: 1;
+        }
+        .cartoon4:hover{
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <img src="Cartoon/cartoon1.jpg" alt="cartoon1" class="cartoon1">
+        <img src="Cartoon/cartoon2.jpg" alt="cartoon2" class="cartoon2">
+        <img src="Cartoon/cartoon3.jpg" alt="cartoon3" class="cartoon3">
+        <img src="Cartoon/cartoon4.jpg" alt="cartoon4" class="cartoon4">
+    </section>
+</body>
+</html>
